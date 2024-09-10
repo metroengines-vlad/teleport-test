@@ -21,6 +21,7 @@ These are the routine steps to be executed EVERY TIME when one wishes to connect
 
 **Note 2:** `./teleport.sh` is written conservatively, so it won't create a bunch of dangling port proxies, firewall rules, or records in `/etc/hosts`. It cleans up all of these items each time it runs.
 
+![an illustration](teleport-windows.drawio.png)
 
 ## Sample Dockerized python script
 ### First, build it
